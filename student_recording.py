@@ -28,7 +28,7 @@ def student_system():
 
             try:
                 age = int(input("Age: "))
-                grade = int(input("Class: "))
+                grade = int(input("Grade: "))
                 score = int(input("Score (0-100): "))
             except ValueError:
                 print("Invalid number entered!")
@@ -55,7 +55,7 @@ def student_system():
                 "ID": student_id,
                 "Name": name,
                 "Age": age,
-                "Class": grade,
+                "Grade": grade,
                 "Score": score,
                 "Letter": letter
             }
