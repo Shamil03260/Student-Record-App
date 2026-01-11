@@ -12,7 +12,7 @@ def student_system():
     # --------------- ADMIN ---------------
     if choice1 == "1":
         while True:
-            print("\n--- STUDENT LIST ---")
+            print("--- STUDENT LIST ---")
             print("1. Add student")
             print("2. View students")
             print("3. Delete student")
@@ -131,7 +131,7 @@ def student_system():
     # --------------- TEACHER ---------------
     elif choice1 == "2":
         while True:
-            print("\n--- STUDENT LIST ---")
+            print("--- STUDENT LIST ---")
             print("1. Add student")
             print("2. View students")
             print("3. Show average grade")
